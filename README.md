@@ -39,7 +39,7 @@ unKR core development team will provide long-term technical support, and develop
 ## What's New
 - [May, 2024] We perform instruction tuning with LLaMA-2-7B for UKG reasoning and achieve stronger performance in several UKG resoning tasks. We have relesed the implementation source code and tuned checkpoints.
 - [Mar, 2024] Our paper "unKR: A Python Library for Uncertain Knowledge Graph Reasoning by Representation Learning" is accepted by SIGIR2024 Demonstration Track.
-- [Feb, 2024] This repo includes the source code and documentation of unKR.
+- [Feb, 2024] We have relesed this repo that includes the source code and documentation of unKR.
 
 
 
