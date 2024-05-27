@@ -15,15 +15,11 @@
 </p>
 
 
-## What's New
-- [May, 2024] We perform instruction tuning with LLaMA-2-7B for UKG reasoning and achieve stronger performance in several UKG resoning tasks. We have relesed the implementation source code and tuned checkpoints.
-- [Mar, 2024] Our paper "unKR: A Python Library for Uncertain Knowledge Graph Reasoning by Representation Learning" is accepted by SIGIR2024 Demonstration Track.
-- [Feb, 2024] This repo includes the source code and documentation of unKR.
 
 
 
 
-## Overview
+
 unKR is an python library for **un**certain **K**nowledge graph (UKG) **R**easoning based on the [PyTorch Lightning](https://www.pytorchlightning.ai/). It provides a unifying workflow to implement a variety of uncertain knowledge graph representation learning models to complete UKG reasoning. unKR consists of five modules: 1) Data Processor handles low-level dataset parsing and negative sampling, then generates mini-batches of data; 2) Model Hub implements the model algorithms, containing the scoring function and loss function; 3) Trainer conducts iterative training and validation; 4) Evaluator provides confidence prediction and link prediction tasks to evaluate models' performance; 5) Controller controls the training worklow, allowing for early stopping and model saving. These modules are decoupled and independent, making unKR highly modularized and extensible. Detailed documentation of the unKR is available at [here](https://seucoin.github.io/unKR/).
 
 unKR core development team will provide long-term technical support, and developers are welcome to discuss the work and initiate questions using `issue`.
@@ -40,7 +36,10 @@ unKR core development team will provide long-term technical support, and develop
 
 
 
-
+## What's New
+- [May, 2024] We perform instruction tuning with LLaMA-2-7B for UKG reasoning and achieve stronger performance in several UKG resoning tasks. We have relesed the implementation source code and tuned checkpoints.
+- [Mar, 2024] Our paper "unKR: A Python Library for Uncertain Knowledge Graph Reasoning by Representation Learning" is accepted by SIGIR2024 Demonstration Track.
+- [Feb, 2024] This repo includes the source code and documentation of unKR.
 
 
 
